@@ -4,7 +4,7 @@ flags.forEach(flag => {
     const section = document.querySelector('.flags')
     section.insertAdjacentHTML('beforeend', 
         `<div>
-            <img src="${flag.image}">
+            <img src="countries/${flag.image}">
             <p>${flag.name}</p>
         </div>`
     )
