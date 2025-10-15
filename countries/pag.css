@@ -5,4 +5,22 @@
 
 .flags{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.flags div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flags img{
+    width: 8rem;
+    height: 8rem;
+}
+
+.flags p{
+    font-size: 20px;
+    text-align: center;
 }
